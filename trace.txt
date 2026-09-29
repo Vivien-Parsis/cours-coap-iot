@@ -1,0 +1,48 @@
+DEBUG:coap:Sending request - Token: fdd6, Remote: <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>
+DEBUG:coap:Sending message <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)>
+DEBUG:coap:Exchange added, message ID: 12117.
+DEBUG:coap:Incoming message <aiocoap.Message at 0x109a8d100: ACK 2.05 Content (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Exchange removed, message ID: 12117.
+DEBUG:coap:Received Response: <aiocoap.Message at 0x109a8d100: ACK 2.05 Content (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Response <aiocoap.Message at 0x109a8d100: ACK 2.05 Content (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload> matched to request <Pipe at 0x109af3a00 around <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)> with 2 callbacks>
+24.8DEBUG:coap:Incoming message <aiocoap.Message at 0x109af3520: CON 2.05 Content (MID 41710, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Received Response: <aiocoap.Message at 0x109af3520: CON 2.05 Content (MID 41710, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Response <aiocoap.Message at 0x109af3520: CON 2.05 Content (MID 41710, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload> matched to request <Pipe at 0x109af3a00 around <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)> with 2 callbacks>
+DEBUG:coap:Sending empty ACK: acknowledging incoming response
+DEBUG:coap:Sending message <aiocoap.Message at 0x109af3850: ACK EMPTY (MID 41710, empty token) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>>
+DEBUG:coap.blockwise-requester:Notification received
+DEBUG:coap.blockwise-requester:Reporting completed notification
+---
+23.1DEBUG:coap:Incoming message <aiocoap.Message at 0x109af37c0: CON 2.05 Content (MID 41711, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Received Response: <aiocoap.Message at 0x109af37c0: CON 2.05 Content (MID 41711, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Response <aiocoap.Message at 0x109af37c0: CON 2.05 Content (MID 41711, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload> matched to request <Pipe at 0x109af3a00 around <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)> with 2 callbacks>
+DEBUG:coap:Sending empty ACK: acknowledging incoming response
+DEBUG:coap:Sending message <aiocoap.Message at 0x109aa9610: ACK EMPTY (MID 41711, empty token) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>>
+DEBUG:coap.blockwise-requester:Notification received
+DEBUG:coap.blockwise-requester:Reporting completed notification
+---
+21.6DEBUG:coap:Incoming message <aiocoap.Message at 0x109aa9610: CON 2.05 Content (MID 41712, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Received Response: <aiocoap.Message at 0x109aa9610: CON 2.05 Content (MID 41712, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Response <aiocoap.Message at 0x109aa9610: CON 2.05 Content (MID 41712, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload> matched to request <Pipe at 0x109af3a00 around <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)> with 2 callbacks>
+DEBUG:coap:Sending empty ACK: acknowledging incoming response
+DEBUG:coap:Sending message <aiocoap.Message at 0x109af34f0: ACK EMPTY (MID 41712, empty token) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>>
+DEBUG:coap.blockwise-requester:Notification received
+DEBUG:coap.blockwise-requester:Reporting completed notification
+---
+23.7DEBUG:coap:Incoming message <aiocoap.Message at 0x109af34f0: CON 2.05 Content (MID 41713, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Received Response: <aiocoap.Message at 0x109af34f0: CON 2.05 Content (MID 41713, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Response <aiocoap.Message at 0x109af34f0: CON 2.05 Content (MID 41713, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload> matched to request <Pipe at 0x109af3a00 around <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)> with 2 callbacks>
+DEBUG:coap:Sending empty ACK: acknowledging incoming response
+DEBUG:coap:Sending message <aiocoap.Message at 0x109aa9a90: ACK EMPTY (MID 41713, empty token) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>>
+DEBUG:coap.blockwise-requester:Notification received
+DEBUG:coap.blockwise-requester:Reporting completed notification
+---
+24.2DEBUG:coap:Incoming message <aiocoap.Message at 0x109af37c0: CON 2.05 Content (MID 41714, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Received Response: <aiocoap.Message at 0x109af37c0: CON 2.05 Content (MID 41714, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload>
+DEBUG:coap:Response <aiocoap.Message at 0x109af37c0: CON 2.05 Content (MID 41714, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 1 option(s), 4 byte(s) payload> matched to request <Pipe at 0x109af3a00 around <aiocoap.Message at 0x109af3f70: CON GET (MID 12117, token fdd6) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>, 2 option(s)> with 2 callbacks>
+DEBUG:coap:Sending empty ACK: acknowledging incoming response
+DEBUG:coap:Sending message <aiocoap.Message at 0x109aa9a90: ACK EMPTY (MID 41714, empty token) remote <_Connection at 0x109af3a30 on transport <_SelectorDatagramTransport fd=7 read=polling write=<idle, bufsize=0>>, active>>
+DEBUG:coap.blockwise-requester:Notification received
+DEBUG:coap.blockwise-requester:Reporting completed notification
+---
+20.1
